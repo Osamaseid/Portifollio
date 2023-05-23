@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regsteration</title>
+    <style>
+        .section_all{
+           margin-left: 10%;
+           width: 80%;
+           margin-top: 3%;
+          }
+        .header_all{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      
+          } 
+      .midddle-header{
+            width: 65%;
+          }
+      .right_header{
+      font-family: 'IBM Plex Sans', sans-serif;
+        }
+    .midddle-header :hover{
+            color: blue;
+            cursor: pointer;
+        }
+
+    .midddle-header a{
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+            font-size: 15px;
+          }
+        .midddle-header :hover{
+            color: blue;
+            cursor: pointer;
+        }
+    .btn{  
+            color: white;
+            background-color: blue;
+            border: none;
+            padding: 4px;
+            border-radius: 7px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            transition: 1s;
+            background-color:darkblue;
+        }
+  
+        .heading{
+            color: darkblue;
+;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            object-fit: cover;
+            text-align: center;
+            font-size: 15;
+        }
+        .form_part{
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .log{
+            border-radius: 15px;
+            border: none;
+            color: white;
+            background-color: blue;
+
+        }
+        footer{
+            background-color: darkblue;
+            color: aliceblue;
+        }
+        @media(max-width:1200px){
+        .btn{
+            display: none;
+        }
+       }
+      @media(max-width:1000px){
+        .Registeration{
+            display: none;
+        }
+      }
+@media(max-width:800px){
+        .Department{
+            display: none;
+        }
+      }
+      @media(max-width:600px){
+        .Home{
+            width: 100%;
+        }
+      }
+    </style>
+</head>
+<body>
+    <section class="section_all">
+        <div class="div_all">
+        <section class="header_all">
+            <div class="right_header">
+                <h2><span class="">Osama</span></h2>
+            </div>
+           
+            <div class="midddle-header">
+                <a href="Index.html"  class="Home">Home</a>
+                <a href="Skills.html"  class="Home">Skills</a>
+                <a href="Links.html"   class="Links">Links</a>
+                <a href="MyDepartement.html"  class="Regsteration">MyDepartement</a>
+                          <a href="Regstration.html" class="email">Regstration</a>
+                
+            </div>   
+        </section>
+    <h2 class="heading">THIS IS YOUR REGISTERATION FORM </h2>
+    <form class="form_part">
+        <div>
+            <button class="log">Login</button> 
+         </div>             
+        <div>
+            <p>1.fill your full name</p>
+            <label>First name:<input type="text"  pattern=[A-za-z]   required></label>
+            <label>Last name:<input type="text"  pattern=[A-za-z] required></label>
+        </div>
+        <div>
+            <p>2.fill your age</p>
+            <label>Age:<input type="text" id="age" maxlength="2" pattern="[0-9]"></label>
+            <label>email:<input type="email" id="email" pattern=""   required </label>
+        </div>
+        <div>
+            <p>3.attach your photo</p>
+            <label>File<input type="file" required></label><br><br>
+        </div>
+        <div>
+            <p>4.choose your gender</p>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" required>
+            <label for="male">female</label>
+            <input type="radio" name="gender" id="female" required>
+        </div>
+        <div>
+            <p>5.your hobbies</p>
+            <label><input type="checkbox" required>football</label>
+            <label><input type="checkbox" required>basketball</label>
+            <label><input type="checkbox" required>cricket</label>
+            <label><input type="checkbox" required>books</label>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <p>6.select your favorite programming language</p>
+            <select required>
+                <option selected disabled>select your department</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JAVA</option>
+                <option>PYTHON</option>
+                <option>PHP</option>
+            </select>
+        </div>
+        <input type="submit" value="submit" required>
+     </form>
+     </div>
+     <footer> Osama<br>contact +251924475152</footer>
+   </section>
+ </body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+    <style>
+        body{
+        
+        }
+        .heading{
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            word-spacing: 5px;
+        }
+        .h4{
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;   
+        }
+    table,th,td{
+     border:2px solid black;
+     border-collapse: collapse; 
+   }
+   table{
+    width: 80%;
+    margin-left: 10%;
+   }
+   .first_table{
+    text-align: center;
+   }
+   .courses_description{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: black;
+   }
+   .class_begins{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+   }
+   .second_table{
+    text-align: center;
+   }
+
+  .header_all{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 3%;
+          } 
+      .midddle-header{
+            width: 65%;
+          }
+      .right_header{
+      font-family: 'IBM Plex Sans', sans-serif;
+        }
+    .midddle-header :hover{
+            color: blue;
+            cursor: pointer;
+        }
+
+    .midddle-header a{
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+            font-size: 15px;
+          }
+        .midddle-header :hover{
+            color: blue;
+            cursor: pointer;
+        }
+    .btn{  
+            color: white;
+            background-color: blue;
+            border: none; 
+            padding: 4px;
+            border-radius: 7px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            transition: 1s;
+            background-color:darkblue;
+        }
+        @media(max-width:1200px){
+        .btn{
+            display: none;
+        }
+       }
+      @media(max-width:1000px){
+        .Registeration{
+            display: none;
+        }
+      }
+@media(max-width:800px){
+        .MyDepartment{
+            display: none;
+        }
+      }
+      @media(max-width:600px){
+        .Home{
+            width: 100%;
+        }
+      }
+      @media(max-width:600px){
+        .first_table{
+            font-size: 12px;
+        }
+        .second_table{
+            font-size: 13px;
+        }
+      }
+      h1{
+            color: darkblue;
+        
+      }
+        footer{
+            background-color: darkblue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+   
+    <section class="section_all">
+    <div class="div_all">
+    <section class="header_all">
+    <div class="right_header">
+      <h2><span class="">Osama</span></h2>
+    </div>
+     
+      <div class="midddle-header">
+          <a href="Index.html"  class="Home">Home</a>
+          <a href="Skills.html"  class="Home">Skills</a>
+          <a href="Links.html"   class="Links">Links</a>
+          <a href="MyDepartement.html"  class="Registeration">MyDepartement</a>
+                    <a href="Regstration.html" class="email">Registration</a>
+          
+      </div>   
+        
+  </section>
+    <h1 class="heading">
+        <h1><center>DEPARTEMENT OF SOFTWEAR ENGINEERING</center></h1>
+         <br>
+         <p>      <div><P><b>Software engineering </b>department is a specialized department that deals with the design, development, testing, and maintenance of software systems. It involves the application of engineering principles to the development of software products and services. The department is responsible for creating software solutions that meet the needs of various industries such as healthcare, finance, education, and entertainment. The software engineering department is also responsible for ensuring that software products are reliable, efficient, and secure.
+            The department comprises of professionals who possess skills in programming languages,
+             project management, software testing, and quality assurance. 
+             They work together to create innovative software solutions that meet the needs of clients
+              and end-users. 
+              The department plays a critical role in the digital age, where software has become an integral part of our daily lives.</P></div></p>
+    </h3>
+    <h4 class="h4"><p>tentative calass scehdule</p> </h4>
+    <!-- first tabele -->
+     <table class="first_table">
+        <tr>
+            <th colspan="7"> DAYs</th>
+        </tr>
+        <tr>
+            <th>Time</th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+        </tr>
+        <tr>
+            <td>8:00-8:50AM</td>
+            <td>seng3071_lab</td>
+            <td>seng3051</td>
+            <td>seng3041_lab</td>
+            <td>seng3031</td>
+            <td>seng3053_lab</td>
+        </tr>
+        <tr>
+            <td>9:00-9:50AM</td>
+            <td>seng3051_lab</td>
+            <td>seng3051</td>
+            <td>seng3041_lab</td>
+            <td>seng3031</td>
+            <td>seng3053_lab</td>
+        </tr>
+        <tr>
+            <td>10:00-10:50AM</td>
+            <td>seng3051_lab</td>
+            <td>seng3053</td>
+            <td>seng3041_lab</td>
+            <td>seng3073</td>
+            <td>seng3053_lab</td>
+        </tr>
+        <tr>
+            <td>11:00-11:50AM</td>
+            <td></td>
+            <td>seng3053</td>
+            <td></td>
+            <td>seng3073</td>
+            <td></td>
+        </tr>
+        <tr class="luch-time">
+            <th colspan="6">lunch time</th>
+        </tr>
+        <tr>
+            <td>2:00-2:50AM</td>
+            <td>gitr2011</td>
+            <td>seng3073_lab</td>
+            <td>seng3071</td>
+            <td>seng3041</td>
+            <td>seng3031_lab</td>
+        </tr>
+        <tr>
+            <td>3:00-3:50AM</td>
+            <td>gitr2011</td>
+            <td>seng3073_lab</td>
+            <td>seng3071</td>
+            <td>seng3041</td>
+            <td>seng3031_lab</td>
+        </tr>
+        <tr>
+            <td>4:00-4:50AM</td>
+            <td></td>
+            <td>seng3073_lab</td>
+            <td>seng3071</td>
+            <td>seng3051</td>
+            <td>seng3031_lab</td>
+        </tr>
+     </table>
+     <!-- end of  first table  -->
+     <!-- second table -->
+     <p class="courses_description">information about courses</p>
+     <table class="second_table">
+        <tr>
+            <th>course</th>
+            <th>course code</th>
+            <th>ECTS</th>
+            <th>Lec</th>
+            <th>Lab</th>
+            <th>Tut</th>
+            <th>Prerequisite</th>
+            <th>assigned instructor</th>
+        </tr>
+        <tr>
+            <td>Microprocessor and assembly language</td>
+            <td>seng3031</td>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+            <td>0</td>
+            <td>seng2031</td>
+            <td>Gemachu Birhanu</td>
+        </tr>
+        <tr>
+            <td>Advanced database</td>
+            <td>seng3041</td>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+            <td>0</td>
+            <td>seng2041</td>
+            <td>Abaynew Guadie</td>
+        </tr>
+<tr>
+            <td>Requirements Engineering</td>
+            <td>seng3051</td>
+            <td>5</td>
+            <td>3</td>
+            <td>0</td>
+            <td>2</td>
+            <td>seng2051</td>
+            <td>Balew Ayelew</td>
+        </tr>
+        <tr>
+            <td>Software engineering tools and practice</td>
+            <td>seng3053</td>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+            <td>0</td>
+            <td>--</td>
+            <td>Tesfanesh Yisayas</td>
+        </tr>
+        <tr>
+            <td>Web design and programming</td>
+            <td>seng3071</td>
+            <td>7</td>
+            <td>3</td>
+            <td>3</td>
+            <td>1</td>
+            <td>--</td>
+            <td>Amanuel Assefa</td>
+        </tr>
+        <tr>
+            <td>Fundamentals of software security</td>
+            <td>seng3073</td>
+            <td>5</td>
+            <td>2</td>
+            <td>3</td>
+            <td>0</td>
+            <td>seng2072</td>
+            <td>Ashenafi</td>
+        </tr>
+        <tr>
+            <td>Global trend</td>
+            <td>GITr2011</td>
+            <td>4</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td></td>
+            <td>TBA</td>
+        </tr>
+     </table>
+     <!-- end of second table -->
+     <p class="class_begins"> NB:class begins wednesday,February 22,2023</p>
+     <p class="class_begins">Report any inconvenience ASAP</p>
+    </div>
+    <footer> Osama<br>contact +251924475152</footer>
+  </section>
+  
+</body>
+</html>
